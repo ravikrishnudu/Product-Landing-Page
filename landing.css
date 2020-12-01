@@ -1,0 +1,119 @@
+lp.css
+body{
+    background-color: #eee;
+    width: auto;
+}
+img{
+    width: 250px;
+    height: 50px;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+}
+.nav{
+    flex-wrap: wrap;
+    text-align:end;
+    margin:  25px;
+    color: #000;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+.put{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+input{
+    max-width: 400px;
+}
+.get{ 
+     max-width: 200px;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 5px;
+}
+.logo{
+    width: 50px;
+    height: 80px;
+    margin-right: 50px;
+}
+.Materials{
+    display: flex;
+    justify-content: center;
+    /* max-width: 1090px; */
+    margin: 0 250px;
+}
+.video{
+    justify-content: center;
+    display: flex;
+}
+.boxes{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+    
+}
+.box{
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+.tromb{
+    background-color: #ddd;
+    font-weight: 590;
+    text-align: center;
+    padding: 15px 85px;
+    font-family: 'Lato', sans-serif;   
+}
+h4{
+    text-align: center;
+    font-size: large;
+}
+li{
+    margin: 15px;
+    text-align: center;  
+}
+button{
+  background-color: orange;
+  font-weight: 400px;
+  padding :  10 10;
+  margin: 10px 100px;
+  border-radius: 5px;  
+}
+a {
+    color: #000;
+    text-decoration: none;
+    text-align: end;
+    justify-content: end;
+    justify-items: flex-end;
+    }
+    footer {
+    margin-right:  170px;
+    margin-left:  170px;
+    background-color: #ddd;
+    padding: 15px;
+    width: auto;
+}
+.bot {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 8px 8px;
+    
+    }
+    footer > span {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+
+    }
